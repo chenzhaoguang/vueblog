@@ -60,4 +60,4 @@ CREATE TABLE `m_user` (
 -- ----------------------------
 -- Records of m_user
 -- ----------------------------
-INSERT INTO `m_user` VALUES ('1', 'markerhub', 'https://image-1300566513.cos.ap-guangzhou.myqcloud.com/upload/images/5a9f48118166308daba8b6da7e466aab.jpg', null, '96e79218965eb72c92a549dd5a330112', '0', '2020-04-20 10:44:01', null);
+INSERT INTO `m_user` VALUES ('1', 'chenzhaoguang', 'https://open-prd.oss-cn-hzfinance.aliyuncs.com/dm-account/headimg/wI2JnwihmMjczbI5E3HJqK51tasPhFB0.png', null, '1318afb8d1628c3abd352483b97940b4', '0', '2020-04-20 10:44:01', null);

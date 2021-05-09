@@ -3,7 +3,7 @@
 
     <el-container>
       <el-header>
-        <img class="mlogo" src="https://www.markerhub.com/dist/images/logo/markerhub-logo.png" alt="">
+        <img class="mlogo" src="../assets/logo-blue.png" alt="">
       </el-header>
       <el-main>
         <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
@@ -15,7 +15,7 @@
           </el-form-item>
 
           <el-form-item>
-            <el-button type="primary" @click="submitForm('ruleForm')">立即创建</el-button>
+            <el-button type="primary" @click="submitForm('ruleForm')">立即登录</el-button>
             <el-button @click="resetForm('ruleForm')">重置</el-button>
           </el-form-item>
         </el-form>
@@ -32,8 +32,8 @@
     data() {
       return {
         ruleForm: {
-          username: 'markerhub',
-          password: '111111'
+          username: '',
+          password: ''
         },
         rules: {
           username: [
@@ -116,8 +116,8 @@
   }
 
   .mlogo {
-    height: 60%;
-    margin-top: 10px;
+    position: relative;
+    top:-6px;
   }
 
   .demo-ruleForm {
